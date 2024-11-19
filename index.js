@@ -28,5 +28,5 @@ app.post('/contact', express.urlencoded({ extended: true}), (req, res) => {
 
 // Finalizing the server
 app.listen(PORT, () => {
-    console.log('Server running on http://localhost:3000');
+    console.log(`Server running on http://localhost:${PORT}`);
 });
